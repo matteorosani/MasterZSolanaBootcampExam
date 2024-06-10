@@ -1,0 +1,33 @@
+{
+  "name": "masterzsolanabootcampexam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "spl_init": "ts-node ./spl_init.ts",
+    "spl_mint": "ts-node ./spl_mint.ts",
+    "spl_transfer": "ts-node ./spl_transfer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteorosani/MasterZSolanaBootcampExam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matteorosani/MasterZSolanaBootcampExam/issues"
+  },
+  "homepage": "https://github.com/matteorosani/MasterZSolanaBootcampExam#readme",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.7",
+    "@types/node": "^20.12.7",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
